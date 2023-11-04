@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.2.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap">
+    <style>
+        body {
+          background: linear-gradient(rgba(108, 192, 227, 0.8), #3498db);
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          min-height: 100vh; /* Tinggi minimum body mencapai tinggi viewport */
+          font-family: 'Inter', sans-serif;
+        }
+
+        .container {
+            flex: 1;
+
+        }
+       
+        .profile {
+    background-color: #fff; /* Warna latar belakang card */
+    border: 1px solid #ccc; /* Garis tepi */
+    border-radius: 10px; /* Sudut membulat */
+    padding: 20px; /* Ruang dalam card */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Efek bayangan card */
+    text-align: center; /* Pusatkan teks */
+}
+
+.profile img {
+    max-width: 150px; /* Ukuran maksimum gambar profil */
+    border-radius: 50%; /* Lingkari gambar profil */
+}
+
+.profile h2 {
+    font-size: 24px; /* Ukuran teks nama */
+    margin-top: 10px; /* Jarak atas dari teks nama */
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+}
+
+.social-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #333;
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+      </style>
+    <!-- Tambahkan file CSS jika diperlukan -->
+</head>
+<body>
+    <header>
+        <h1>Profil</h1>
+    </header>
+    
+    <main>
+        <div class="profile">
+            <img src="img/healing_12.png" alt="Foto Profil">
+            <h2>Rainova Rahaniawan</h2>
+            <ul class="social-links">
+                <li><a href="https://twitter.com/RRahaniawan" target="_blank"><i data-feather="twitter"></i>Twitter</a></li>
+                <li><a href="https://www.youtube.com/channel/UCN36pQsB_t9tf2jcSj235oA" target="_blank"><i data-feather="youtube"></i>YouTube</a></li>
+                <li><a href="https://www.instagram.com/rainovarahaniawan" target="_blank"><i data-feather="instagram"></i>Instagram</a></li>
+                <!-- Tambahkan link ke sosial media Anda di sini -->
+            </ul>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script>
+        feather.replace();
+    </script>
+</body>
+</html>
